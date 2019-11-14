@@ -1,0 +1,21 @@
+Copy the below to the timelion visualization to get a running timelion of stacked events:
+
+.es(source_name:Microsoft-Windows-Sysmon).bars(stack=true),
+.es(source_name:Service*Control*Manager).bars(stack=true),
+.es(source_name:Microsoft-Windows-Security-Auditing).bars(stack=true),
+.es(source_name:Microsoft-Windows-WindowsUpdateClient).bars(stack=true),
+.es(source_name:Microsoft-Windows-Security-SPP).bars(stack=true),
+.es(source_name:Microsoft*Antimalware).bars(stack=true),
+.es(source_name:Windows*Error*Reporting).bars(stack=true),
+.es(source_name:gupdate).bars(stack=true),
+.es(source_name:System*Restore).bars(stack=true),
+.es(source_name:Windows*Activation*Technologies).bars(stack=true),
+.es(source_name:VSS).bars(stack=true),
+.es(source_name:EventLog).bars(stack=true),
+.es(source_name:Microsoft-Windows-CAPI2).bars(stack=true),
+.es(source_name:Microsoft-Windows-FilterManager).bars(stack=true),
+.es(source_name:Microsoft-Windows-Kernel-General).bars(stack=true),
+.es(source_name:Microsoft-Windows-Defrag).bars(stack=true),
+.es(source_name:Microsoft-Windows-RestartManager).bars(stack=true),
+.es(source_name:Microsoft-Windows-Time-Service).bars(stack=true),
+.es(source_name:Application*Error).bars(stack=true)
